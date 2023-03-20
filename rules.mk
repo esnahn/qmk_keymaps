@@ -32,6 +32,6 @@ UNICODEMAP_ENABLE = yes      # Unicode Map
 
 # macro
 SEND_STRING_ENABLE = yes	 # enabled by default
-DYNAMIC_MACRO_ENABLE = yes
+# DYNAMIC_MACRO_ENABLE = yes
 
 LAYOUTS = esnahn
