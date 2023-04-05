@@ -14,6 +14,7 @@ enum unicode_names {
     MIDDOT,
     ELLIPS,
     NBSP,
+    ZWSP,
     LCORNB,
     RCORNB,
     LWCRNB,
@@ -26,6 +27,7 @@ const uint32_t PROGMEM unicode_map[] = {
     [MIDDOT] = 0x00B7,   // ·   middle dot
     [ELLIPS] = 0x2026,   // …   ellipsis
     [NBSP]   = 0x00A0,   // No-Break Space
+    [ZWSP]   = 0x200B,   // Zero Width Space
     [LCORNB] = 0x300C,   // 「  left corner bracket
     [RCORNB] = 0x300D,   // 」  right corner bracket
     [LWCRNB] = 0x300E,   // 『  left white corner bracket
